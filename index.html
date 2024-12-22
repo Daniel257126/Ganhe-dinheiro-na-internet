@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: white; /* Fundo branco para a página */
+            color: #000;
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/t2/600523-resumo-fundo-preto-gradiente-que-parece-moderno-vetor.jpg'); /* Imagem de fundo, substitua o caminho pela sua imagem */
+            background-size: cover; /* Ajusta o fundo para cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+        }
+        header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+        header span {
+            font-size: 1em;
+            font-weight: bold;
+            background: linear-gradient(to right, #ffffff, #808080); /* Gradiente branco para cinza no nome */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #ffffff, #808080); /* Gradiente branco para cinza nas letras */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            background: linear-gradient(to right, #ffffff, #808080); /* Gradiente branco para cinza nas letras */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .payment-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background: linear-gradient(to right, #000, #434343); /* Gradiente preto */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none; /* Remover sublinhado se houver */
+        }
+        .payment-button:hover {
+            background: linear-gradient(to right, #434343, #000);
+        }
+        .ebook-description {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: linear-gradient(to right, #808080, #000); /* Gradiente de cinza para preto */
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .ebook-description h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #ffffff, #808080); /* Gradiente branco para cinza */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .ebook-description p {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/7945317-milionario-logo-design-icone-design-modelo-elemento-lettet-s-design-vetor.jpg" alt="Foto de Perfil">
+        <span>Daniel Sousa Santhos</span>
+    </header>
+
+    <div>
+        <h1>comece hoje a ganhar dinheiro na internet!</h1>
+        <p></p>Clique e adquira o seu e-book:</p>
+        <a href="https://pay.kiwify.com.br/aRS4Ram" class="payment-button">Pagamento vitalício</a> <!-- Link atualizado para o botão -->
+    </div>
+
+    <div class="ebook-description">
+        <h2>"Descubra as 10 Melhores Formas de Ganhar Dinheiro na Internet" </h2>
+        <p>Neste eBook, você encontrará as dez maneiras mais lucrativas e testadas de gerar renda pela internet, com dicas práticas, exemplos reais e estratégias que funcionam. Ideal para quem busca independência financeira e flexibilidade no trabalho, este material é seu primeiro passo rumo ao sucesso online.</p>
+    </div>
+
+</body>
+</html>
